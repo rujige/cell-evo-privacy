@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>《细胞进化》隐私政策 · 理享工作室</title>
+<meta name="description" content="《细胞进化》（Android，com.cellevo.game）隐私政策：当前纯离线版本不收集任何个人信息、不申请任何权限；已就后续接入的实名认证与广告服务作出说明。">
+<meta name="theme-color" content="#0f2a44">
+<style>
+  :root{
+    --ink:#101820; --ink-2:#2b3947; --muted:#5d6b7a; --line:#e3e9f0;
+    --bg:#f6f8fb; --card:#ffffff; --accent:#0f5fa8; --accent-soft:#eaf2fb;
+    --ok:#0b7a53; --ok-soft:#e8f6f0; --warn:#8a5a00; --warn-soft:#fdf4e3;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+  }
+  .wrap{max-width:840px;margin:0 auto;padding:0 18px 72px}
+
+  header.hero{
+    background:linear-gradient(160deg,#0f2a44 0%,#14456f 62%,#1b5c8f 100%);
+    color:#fff;padding:44px 0 38px;margin-bottom:26px;
+  }
+  header.hero .wrap{padding-bottom:0}
+  .kicker{margin:0 0 10px;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#a9c9e6}
+  header.hero h1{margin:0;font-size:clamp(26px,5.2vw,38px);line-height:1.25}
+  .meta{margin:16px 0 0;font-size:13.5px;color:#c9dcee;display:flex;flex-wrap:wrap;gap:6px 18px}
+  .meta span{white-space:nowrap}
+
+  .tldr{
+    background:var(--card);border:1px solid var(--line);border-left:4px solid var(--ok);
+    border-radius:12px;padding:18px 20px;margin:0 0 26px;box-shadow:0 1px 2px rgba(16,24,32,.04);
+  }
+  .tldr h2{margin:0 0 8px;font-size:16px;color:var(--ok);letter-spacing:.02em}
+  .tldr p{margin:0;color:var(--ink-2);font-size:15.5px}
+
+  nav.toc{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px 20px;margin:0 0 30px;
+  }
+  nav.toc div{font-size:13px;color:var(--muted);letter-spacing:.08em;margin-bottom:8px}
+  nav.toc ol{margin:0;padding-left:1.15em;columns:2;column-gap:28px;font-size:14.5px}
+  nav.toc li{margin:3px 0;break-inside:avoid}
+  nav.toc a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+  nav.toc a:hover{border-bottom-color:var(--accent)}
+  @media (max-width:560px){nav.toc ol{columns:1}}
+
+  section{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:24px 24px 8px;margin:0 0 18px;box-shadow:0 1px 2px rgba(16,24,32,.035);
+  }
+  section h2{
+    margin:0 0 14px;font-size:19px;line-height:1.4;
+    padding-bottom:10px;border-bottom:1px solid var(--line);
+  }
+  section h3{margin:22px 0 6px;font-size:15.5px;color:var(--accent)}
+  section p{margin:0 0 12px;color:var(--ink-2)}
+  section ul,section ol{margin:0 0 14px;padding-left:1.35em;color:var(--ink-2)}
+  section li{margin:5px 0}
+  strong{color:var(--ink);font-weight:600}
+  .note{background:var(--accent-soft);border-radius:8px;padding:12px 14px;margin:0 0 14px;font-size:14.5px;color:#0d4a82}
+  .ok{background:var(--ok-soft);color:#0a6344}
+  .warn{background:var(--warn-soft);color:var(--warn)}
+  code{background:#f1f4f8;border-radius:4px;padding:1px 5px;font-size:.92em;
+       font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+
+  table{width:100%;border-collapse:collapse;margin:0 0 16px;font-size:14.5px}
+  caption{caption-side:top;text-align:left;color:var(--muted);font-size:13px;padding-bottom:6px}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+  th{background:#f3f6fa;font-weight:600;white-space:nowrap}
+  tbody tr:nth-child(even) td{background:#fbfcfe}
+  td.no{color:var(--ok);font-weight:600;white-space:nowrap}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+  footer{margin-top:34px;color:var(--muted);font-size:13.5px;text-align:center;line-height:1.9}
+  a{color:var(--accent)}
+  @media print{
+    body{background:#fff}
+    header.hero{background:#fff;color:#000;border-bottom:2px solid #000;padding:0 0 16px}
+    .kicker,.meta{color:#444}
+    section,.tldr,nav.toc{box-shadow:none;border-color:#ccc}
+    nav.toc{display:none}
+    section{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">理享工作室 · Privacy Policy</p>
+    <h1>《细胞进化》隐私政策</h1>
+    <p class="meta">
+      <span>更新日期：2026 年 10 月 19 日</span>
+      <span>生效日期：2026 年 10 月 19 日</span>
+      <span>版本：v1.0</span>
+    </p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="tldr">
+    <h2>先说结论</h2>
+    <p><strong>当前版本的《细胞进化》是一款纯离线单机游戏</strong>：不申请任何系统权限（连联网权限都没有），不收集、不上传任何个人信息，不接入任何第三方 SDK、广告或统计分析工具；游戏进度只保存在你自己的手机里，卸载即彻底删除。</p>
+  </div>
+
+  <nav class="toc" aria-label="目录">
+    <div>目录</div>
+    <ol>
+      <li><a href="#s1">引言与适用范围</a></li>
+      <li><a href="#s2">当前版本收集哪些信息</a></li>
+      <li><a href="#s3">游戏数据如何存储</a></li>
+      <li><a href="#s4">设备权限说明</a></li>
+      <li><a href="#s5">实名认证与防沉迷</a></li>
+      <li><a href="#s6">广告与第三方 SDK</a></li>
+      <li><a href="#s7">信息共享与披露</a></li>
+      <li><a href="#s8">保存与安全</a></li>
+      <li><a href="#s9">未成年人保护</a></li>
+      <li><a href="#s10">你的权利</a></li>
+      <li><a href="#s11">政策如何更新</a></li>
+      <li><a href="#s12">如何联系我们</a></li>
+    </ol>
+  </nav>
+
+  <section id="s1">
+    <h2>一、引言与适用范围</h2>
+    <p>《细胞进化》（以下简称“本应用”，Android 应用包名 <code>com.cellevo.game</code>）由<strong>理享工作室</strong>（以下简称“我们”）开发并运营。我们按照《中华人民共和国个人信息保护法》《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国未成年人保护法》等法律法规的要求处理你的个人信息。</p>
+    <p>本政策适用于你下载、安装、使用本应用的全过程，说明我们如何处理（收集、存储、使用、共享、删除）你的信息，以及你享有的权利。</p>
+
+    <h3>版本说明</h3>
+    <div class="scroll">
+      <table>
+        <caption>表 1　政策版本与对应功能</caption>
+        <thead>
+          <tr><th>版本</th><th>主要功能</th><th>信息收集情况</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>v1.0<br>2026-10-19</td>
+            <td>纯离线单机版</td>
+            <td class="no">不收集任何个人信息</td>
+          </tr>
+          <tr>
+            <td>后续版本<br>（尚未发布）</td>
+            <td>接入实名认证 / 防沉迷、广告服务</td>
+            <td>按第五、六节说明收集；接入时更新本页并在应用内重新征得同意</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">你现在读到的是 <strong>v1.0</strong> 政策，对应的是不联网、无账号、无广告的离线版本。第五、六节描述的是<strong>我们计划接入、但目前尚未启用</strong>的功能，我们会在功能上线前更新本政策，届时收集范围以更新后的版本为准。</p>
+  </section>
+
+  <section id="s2">
+    <h2>二、当前版本收集哪些个人信息</h2>
+    <p><strong>当前版本不收集任何个人信息。</strong>本应用未申请“网络访问”权限，从系统层面即无法与互联网通信；也不读取你的通讯录、短信、位置、相册、麦克风、摄像头、设备标识符（IMEI / OAID / Android ID 等）或剪贴板内容。</p>
+    <div class="scroll">
+      <table>
+        <caption>表 2　个人信息收集清单（当前版本）</caption>
+        <thead>
+          <tr><th>信息类型</th><th>是否收集</th><th>说明</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>手机号、密码、账号</td><td class="no">不收集</td><td>本应用无需注册登录</td></tr>
+          <tr><td>姓名、身份证件号码</td><td class="no">不收集</td><td>当前版本不含实名认证功能</td></tr>
+          <tr><td>设备标识符、IP 地址</td><td class="no">不收集</td><td>无联网权限，无法获取</td></tr>
+          <tr><td>位置信息</td><td class="no">不收集</td><td>未申请定位权限</td></tr>
+          <tr><td>相册、文件、通讯录</td><td class="no">不收集</td><td>未申请存储与读取权限</td></tr>
+          <tr><td>麦克风、摄像头</td><td class="no">不收集</td><td>未申请录音与拍照权限</td></tr>
+          <tr><td>支付信息</td><td class="no">不收集</td><td>本应用无内购、无充值</td></tr>
+          <tr><td>游戏进度与设置</td><td>仅存于本机</td><td>见第三节，不上传</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>本应用不含广告、不含推送、不含用户画像与个性化推荐，也不会为任何商业目的使用你的数据。</p>
+  </section>
+
+  <section id="s3">
+    <h2>三、游戏数据如何存储</h2>
+    <p>为了让你下次打开时能继续游玩，本应用会在<strong>你设备的应用私有目录</strong>中保存少量数据（Android WebView 的本地存储，LocalStorage）。这些数据<strong>不会离开你的设备</strong>：</p>
+    <div class="scroll">
+      <table>
+        <caption>表 3　本地保存的数据</caption>
+        <thead>
+          <tr><th>数据</th><th>用途</th><th>是否上传</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>游戏存档（当前轮次、进度）</td><td>下次打开时继续游戏</td><td>否</td></tr>
+          <tr><td>设置项（音乐 / 音效开关、画面风格）</td><td>记住你的偏好</td><td>否</td></tr>
+          <tr><td>图鉴与进化记录</td><td>展示你已解锁的内容</td><td>否</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>上述数据仅保存在本机，其他应用无法读取。你可以在系统“设置 → 应用 → 细胞进化 → 存储”中点击“清除数据”，或在卸载本应用时一并删除，我们不会也无法保留副本。</p>
+  </section>
+
+  <section id="s4">
+    <h2>四、设备权限说明</h2>
+    <p><strong>当前版本未申请任何 Android 系统权限。</strong>安装时你在权限列表中不会看到本应用，运行过程中也不会弹出任何权限申请。</p>
+    <div class="scroll">
+      <table>
+        <caption>表 4　权限调用情况</caption>
+        <thead>
+          <tr><th>权限</th><th>当前版本</th><th>说明</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>网络（INTERNET）</td><td class="no">不申请</td><td>纯离线游戏，无任何网络请求</td></tr>
+          <tr><td>存储 / 相册</td><td class="no">不申请</td><td>不读写你的文件</td></tr>
+          <tr><td>定位</td><td class="no">不申请</td><td>无相关功能</td></tr>
+          <tr><td>麦克风 / 摄像头</td><td class="no">不申请</td><td>无相关功能</td></tr>
+          <tr><td>通知</td><td class="no">不申请</td><td>不发送任何通知</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">当后续版本接入实名认证或广告服务时，本应用会新增<strong>网络访问（INTERNET）</strong>权限，用于向实名认证服务商核验身份、向广告平台请求广告。除此之外不会新增其他权限；新增权限时我们会在申请前说明用途，并在本页同步更新。</p>
+  </section>
+
+  <section id="s5">
+    <h2>五、实名认证与防沉迷</h2>
+    <p class="warn note"><strong>当前版本尚未接入该功能。</strong>本节说明的是我们计划在后续版本中启用的实名认证与防沉迷机制，接入前不会收集任何身份信息。</p>
+    <p>依据《中华人民共和国未成年人保护法》《关于防止未成年人沉迷网络游戏的通知》等规定，网络游戏服务提供者应当要求用户使用有效身份证件进行实名注册，并对未成年人采取时段、时长与消费限制。为此，后续版本将接入实名认证能力：</p>
+    <ul>
+      <li><strong>收集的信息</strong>：姓名、身份证件号码（由具备资质的实名认证服务商核验）。为实现最小必要，我们仅向服务商提交核验所需的字段，<strong>不获取、不存储你的身份证照片</strong>。</li>
+      <li><strong>我们获得的结果</strong>：核验是否通过、年龄是否已满 18 周岁。我们不会留存你的身份证号码原文，也不会将其用于实名认证以外的任何目的。</li>
+      <li><strong>拒绝的后果</strong>：因法律法规要求，如你不提供实名信息或核验未通过，你将无法进入游戏。这是法定义务，并非我们自行设置的障碍。</li>
+      <li><strong>未成年人限制</strong>：核验为未成年人的，我们将在法定允许的时段内提供服务（现行规定为周五、周六、周日及法定节假日的 20:00—21:00，每日不超过 1 小时），并在其他时段拒绝登录。</li>
+      <li><strong>保存期限</strong>：核验结果仅在法律要求的期限内保存，期限届满后删除或匿名化。</li>
+    </ul>
+    <p>接入时，我们会在本页列明实名认证服务商的名称、其处理的字段及其隐私政策链接，并在应用内首次启动时以弹窗形式单独征得你的同意。</p>
+  </section>
+
+  <section id="s6">
+    <h2>六、广告与第三方 SDK</h2>
+    <p class="warn note"><strong>当前版本尚未接入任何广告或第三方 SDK。</strong>本节说明的是后续版本的计划与届时适用的规则。</p>
+    <p>为维持游戏的持续开发，后续版本可能接入广告服务。接入后：</p>
+    <ul>
+      <li><strong>可能收集的信息</strong>：设备标识符（OAID / Android ID 等）、设备型号与系统版本、IP 地址与粗略地理位置（用于广告地域匹配）、广告展示与点击记录。</li>
+      <li><strong>用途</strong>：展示广告、统计广告效果、防止广告作弊。<strong>不会</strong>用于向你推送与广告无关的内容。</li>
+      <li><strong>个性化广告</strong>：你可以在应用内的隐私设置中关闭个性化广告；关闭后你仍会看到广告，但相关性会降低。部分广告 SDK 也提供系统级关闭方式（如 Android 的“广告 ID”重置/删除）。</li>
+      <li><strong>SDK 清单</strong>：接入时我们会在下表逐项列明 SDK 名称、运营方、收集的信息、隐私政策链接，并同步更新本页与“第三方共享清单”。</li>
+    </ul>
+    <div class="scroll">
+      <table>
+        <caption>表 5　第三方 SDK 清单（接入后填写）</caption>
+        <thead>
+          <tr><th>SDK 名称</th><th>使用目的</th><th>收集的信息</th><th>隐私政策链接</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>实名认证服务（待定）</td><td>身份核验、防沉迷</td><td>姓名、身份证件号码、核验结果</td><td>接入时提供</td></tr>
+          <tr><td>广告服务（待定）</td><td>广告展示与效果统计</td><td>设备标识符、设备信息、IP、广告交互记录</td><td>接入时提供</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>在接入上述服务前，本应用不会与任何第三方发生数据交互。</p>
+  </section>
+
+  <section id="s7">
+    <h2>七、信息共享与披露</h2>
+    <p>当前版本不收集个人信息，因此<strong>不存在</strong>向任何公司、组织或个人共享、转让、公开披露你的信息的情形；不存在“委托处理”；也不存在跨境传输。</p>
+    <p>后续版本接入实名认证与广告服务后，我们仅会在实现相应目的的最小必要范围内与对应服务商交互，并要求其按照法律法规与本政策处理数据；涉及个人信息对外提供时，我们将事先告知你并取得单独同意。</p>
+    <p>除法律法规规定或你明确同意的情形外，我们不会向第三方提供你的个人信息。</p>
+  </section>
+
+  <section id="s8">
+    <h2>八、保存与安全</h2>
+    <p>当前版本不运营任何接收数据的服务器，因此不存在“我们在服务器上保存你的信息”的情况。本机保存的游戏数据受 Android 应用沙箱保护，其他应用无法访问。</p>
+    <p>后续版本如涉及个人信息处理，我们将采取加密传输、加密存储、访问控制、最小权限分配等措施，并仅在实现目的所需的最短期限内保存。</p>
+    <p>尽管如此，我们仍建议你：妥善保管自己的手机与锁屏密码；在出售、转让或送修设备前，先卸载本应用或清除应用数据。</p>
+  </section>
+
+  <section id="s9">
+    <h2>九、未成年人保护</h2>
+    <p>我们非常重视未成年人的个人信息保护。当前版本不收集任何个人信息，因此也不存在针对未成年人的信息收集行为。</p>
+    <p>根据《中华人民共和国未成年人保护法》及相关规定：</p>
+    <ul>
+      <li>若你是未满 14 周岁的儿童，请在监护人陪同下阅读本政策，并在取得监护人同意后使用本应用；</li>
+      <li>若你是未成年人的监护人，请关注被监护人的使用情况；如对个人信息保护有任何疑问，可通过第十二节的方式联系我们；</li>
+      <li>当前版本不含内购、广告与社交功能，不会诱导未成年人消费；后续版本接入实名认证后，将依法执行未成年人时段与时长限制。</li>
+    </ul>
+  </section>
+
+  <section id="s10">
+    <h2>十、你的权利</h2>
+    <p>依据《个人信息保护法》，你对自己的个人信息享有知情、决定、查阅、复制、更正、删除等权利。就当前版本而言：</p>
+    <ul>
+      <li><strong>查阅 / 更正</strong>：我们不持有你的个人信息，无需向我们申请；游戏数据可在本机查看与重置（游戏内“开始新游戏”）。</li>
+      <li><strong>删除</strong>：在系统设置中清除本应用数据，或卸载本应用，本机数据即被删除且不可恢复。</li>
+      <li><strong>撤回同意</strong>：当前版本未申请任何权限、不收集信息，因此不存在需要撤回的授权。</li>
+      <li><strong>注销账号</strong>：当前版本无账号体系，无需注销。</li>
+      <li><strong>投诉举报</strong>：如你认为我们的处理行为损害了你的合法权益，可先通过第十二节联系我们；也可向网信、电信、公安、市场监管等主管部门投诉举报，或向有管辖权的人民法院提起诉讼。</li>
+    </ul>
+    <p>我们将在收到你的问题后 <strong>15 个工作日</strong>内答复。</p>
+  </section>
+
+  <section id="s11">
+    <h2>十一、政策如何更新</h2>
+    <p>当本应用的功能、收集的信息或第三方服务发生变化时（例如接入实名认证、广告服务），我们会更新本政策，并在本页面发布新版本、更新顶部的“版本”与“更新日期”。</p>
+    <p><strong>对于涉及个人信息收集范围变化的更新，我们会在应用内以弹窗方式重新征得你的同意</strong>；未经你同意，我们不会开始收集超出本政策范围的信息。你也可以选择拒绝，我们将继续为你提供不依赖于该信息的功能（法律强制要求实名认证的除外）。</p>
+    <p>未经你明确同意，我们不会削减你依据本政策应享有的权利。历史版本将在本页面存档供查阅。</p>
+  </section>
+
+  <section id="s12">
+    <h2>十二、如何联系我们</h2>
+    <p>如果你对本政策或个人信息保护有任何疑问、意见或建议，可通过以下方式联系我们：</p>
+    <ul>
+      <li><strong>开发者名称</strong>：理享工作室</li>
+      <li><strong>联系地址</strong>：浙江理工大学下沙生活区 1 区 4 号北楼 123 号</li>
+      <li><strong>联系电话</strong>：19730045578</li>
+    </ul>
+    <p>我们会在 15 个工作日内回复。若你对我们的答复不满意，可向有关监管部门投诉，或向被告住所地有管辖权的人民法院提起诉讼。</p>
+  </section>
+
+  <footer>
+    <p>《细胞进化》· 理享工作室</p>
+    <p>本政策 v1.0 · 自 2026 年 10 月 19 日起生效 · 最近更新：2026 年 10 月 19 日</p>
+  </footer>
+
+</div>
+</body>
+</html>
